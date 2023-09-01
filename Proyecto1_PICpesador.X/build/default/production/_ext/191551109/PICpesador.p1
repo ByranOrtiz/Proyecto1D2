@@ -1,0 +1,1270 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"543 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 543:     struct {
+[s S19 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S19 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"542
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 542: typedef union {
+[u S18 `S19 1 ]
+[n S18 . . ]
+"553
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 553: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x00C)));
+[v _PIR1bits `VS18 ~T0 @X0 0 e@12 ]
+"856
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 856:     struct {
+[s S30 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S30 . SSPM CKP SSPEN SSPOV WCOL ]
+"863
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 863:     struct {
+[s S31 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . SSPM0 SSPM1 SSPM2 SSPM3 ]
+"855
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 855: typedef union {
+[u S29 `S30 1 `S31 1 ]
+[n S29 . . . ]
+"870
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 870: extern volatile SSPCONbits_t SSPCONbits __attribute__((address(0x014)));
+[v _SSPCONbits `VS29 ~T0 @X0 0 e@20 ]
+"843
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 843: extern volatile unsigned char SSPBUF __attribute__((address(0x013)));
+[v _SSPBUF `Vuc ~T0 @X0 0 e@19 ]
+"2183
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2183:     struct {
+[s S82 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S82 . BF UA R_nW S P D_nA CKE SMP ]
+"2193
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2193:     struct {
+[s S83 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S83 . . R . D ]
+"2199
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2199:     struct {
+[s S84 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S84 . . I2C_READ I2C_START I2C_STOP I2C_DATA ]
+"2206
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2206:     struct {
+[s S85 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S85 . . nW . nA ]
+"2212
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2212:     struct {
+[s S86 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S86 . . nWRITE . nADDRESS ]
+"2218
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2218:     struct {
+[s S87 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S87 . . R_W . D_A ]
+"2224
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2224:     struct {
+[s S88 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S88 . . READ_WRITE . DATA_ADDRESS ]
+"2182
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2182: typedef union {
+[u S81 `S82 1 `S83 1 `S84 1 `S85 1 `S86 1 `S87 1 `S88 1 ]
+[n S81 . . . . . . . . ]
+"2231
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2231: extern volatile SSPSTATbits_t SSPSTATbits __attribute__((address(0x094)));
+[v _SSPSTATbits `VS81 ~T0 @X0 0 e@148 ]
+[v F1272 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\builtins.h
+[v __delay `JF1272 ~T0 @X0 0 e ]
+[p i __delay ]
+"3645 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3645: extern volatile __bit BF __attribute__((address(0x4A0)));
+[v _BF `Vb ~T0 @X0 0 e@1184 ]
+[p mainexit ]
+"56 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 56: void setup(void);
+[v _setup `(v ~T0 @X0 0 ef ]
+"39 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/HX711.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/HX711.h: 39: void init_hx(int gain1);
+[v _init_hx `(v ~T0 @X0 0 ef1`i ]
+"35 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/LCD8B.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/LCD8B.h: 35: void Lcd_Clear(void);
+[v _Lcd_Clear `(v ~T0 @X0 0 ef ]
+"59 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 59: uint8_t readFromEEPROM(uint8_t address);
+[v _readFromEEPROM `(uc ~T0 @X0 0 ef1`uc ]
+"234 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 234:     struct {
+[s S8 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S8 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"233
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 233: typedef union {
+[u S7 `S8 1 ]
+[n S7 . . ]
+"245
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 245: extern volatile PORTBbits_t PORTBbits __attribute__((address(0x006)));
+[v _PORTBbits `VS7 ~T0 @X0 0 e@6 ]
+"57 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 57: void calibration(void);
+[v _calibration `(v ~T0 @X0 0 ef ]
+"37 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/LCD8B.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/LCD8B.h: 37: void Lcd_Set_Cursor(char a, char b);
+[v _Lcd_Set_Cursor `(v ~T0 @X0 0 ef2`uc`uc ]
+"43
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/LCD8B.h: 43: void Lcd_Write_String(char *a);
+[v _Lcd_Write_String `(v ~T0 @X0 0 ef1`*uc ]
+"30 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/HX711.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/HX711.h: 30: void set_scale(float scale1);
+[v _set_scale `(v ~T0 @X0 0 ef1`f ]
+"47
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/HX711.h: 47: void tare(int times);
+[v _tare `(v ~T0 @X0 0 ef1`i ]
+"45
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/HX711.h: 45: float get_units(int times);
+[v _get_units `(f ~T0 @X0 0 ef1`i ]
+"41 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/LCD8B.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/LCD8B.h: 41: void Lcd_Write_Char(char a);
+[v _Lcd_Write_Char `(v ~T0 @X0 0 ef1`uc ]
+"3387 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3387: extern volatile unsigned char ANSEL __attribute__((address(0x188)));
+[v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
+"3449
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3449: extern volatile unsigned char ANSELH __attribute__((address(0x189)));
+[v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
+"1478
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1478: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"1602
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1602: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"228
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 228: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"352
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 352: extern volatile unsigned char PORTD __attribute__((address(0x008)));
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"1664
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1664: extern volatile unsigned char TRISE __attribute__((address(0x089)));
+[v _TRISE `Vuc ~T0 @X0 0 e@137 ]
+"420
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 420:     struct {
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . RE0 RE1 RE2 RE3 ]
+"419
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 419: typedef union {
+[u S13 `S14 1 ]
+[n S13 . . ]
+"427
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 427: extern volatile PORTEbits_t PORTEbits __attribute__((address(0x009)));
+[v _PORTEbits `VS13 ~T0 @X0 0 e@9 ]
+"1868
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1868:     struct {
+[s S70 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 ]
+[n S70 . SCS LTS HTS OSTS IRCF ]
+"1875
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1875:     struct {
+[s S71 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S71 . . IRCF0 IRCF1 IRCF2 ]
+"1867
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1867: typedef union {
+[u S69 `S70 1 `S71 1 ]
+[n S69 . . . ]
+"1882
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1882: extern volatile OSCCONbits_t OSCCONbits __attribute__((address(0x08F)));
+[v _OSCCONbits `VS69 ~T0 @X0 0 e@143 ]
+"39 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/LCD8B.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/LCD8B.h: 39: void Lcd_Init(void);
+[v _Lcd_Init `(v ~T0 @X0 0 ef ]
+"64 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/I2C.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/I2C.h: 64: void I2C_Slave_Init(uint8_t address);
+[v _I2C_Slave_Init `(v ~T0 @X0 0 ef1`uc ]
+"465 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 465:     struct {
+[s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S16 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"475
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 475:     struct {
+[s S17 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S17 . . TMR0IF . TMR0IE ]
+"464
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 464: typedef union {
+[u S15 `S16 1 `S17 1 ]
+[n S15 . . . ]
+"482
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 482: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS15 ~T0 @X0 0 e@11 ]
+"1352
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1352:     struct {
+[s S50 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S50 . PS PSA T0SE T0CS INTEDG nRBPU ]
+"1360
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1360:     struct {
+[s S51 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S51 . PS0 PS1 PS2 ]
+"1351
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1351: typedef union {
+[u S49 `S50 1 `S51 1 ]
+[n S49 . . . ]
+"1366
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1366: extern volatile OPTION_REGbits_t OPTION_REGbits __attribute__((address(0x081)));
+[v _OPTION_REGbits `VS49 ~T0 @X0 0 e@129 ]
+"2422
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2422:     struct {
+[s S93 :8 `uc 1 ]
+[n S93 . IOCB ]
+"2425
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2425:     struct {
+[s S94 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S94 . IOCB0 IOCB1 IOCB2 IOCB3 IOCB4 IOCB5 IOCB6 IOCB7 ]
+"2421
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2421: typedef union {
+[u S92 `S93 1 `S94 1 ]
+[n S92 . . . ]
+"2436
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2436: extern volatile IOCBbits_t IOCBbits __attribute__((address(0x096)));
+[v _IOCBbits `VS92 ~T0 @X0 0 e@150 ]
+"2352
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2352:     struct {
+[s S90 :8 `uc 1 ]
+[n S90 . WPUB ]
+"2355
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2355:     struct {
+[s S91 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S91 . WPUB0 WPUB1 WPUB2 WPUB3 WPUB4 WPUB5 WPUB6 WPUB7 ]
+"2351
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2351: typedef union {
+[u S89 `S90 1 `S91 1 ]
+[n S89 . . . ]
+"2366
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2366: extern volatile WPUBbits_t WPUBbits __attribute__((address(0x095)));
+[v _WPUBbits `VS89 ~T0 @X0 0 e@149 ]
+"3257
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3257: extern volatile unsigned char EEADR __attribute__((address(0x10D)));
+[v _EEADR `Vuc ~T0 @X0 0 e@269 ]
+"3250
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3250: extern volatile unsigned char EEDAT __attribute__((address(0x10C)));
+[v _EEDAT `Vuc ~T0 @X0 0 e@268 ]
+"3505
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3505:     struct {
+[s S137 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S137 . RD WR WREN WRERR . EEPGD ]
+"3504
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3504: typedef union {
+[u S136 `S137 1 ]
+[n S136 . . ]
+"3514
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3514: extern volatile EECON1bits_t EECON1bits __attribute__((address(0x18C)));
+[v _EECON1bits `VS136 ~T0 @X0 0 e@396 ]
+"3544
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3544: extern volatile unsigned char EECON2 __attribute__((address(0x18D)));
+[v _EECON2 `Vuc ~T0 @X0 0 e@397 ]
+"43 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/HX711.h
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/HX711.h: 43: float get_value(int times);
+[v _get_value `(f ~T0 @X0 0 ef1`i ]
+"13 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c
+[p x FOSC  =  INTRC_NOCLKOUT ]
+"14
+[p x WDTE  =  OFF        ]
+"15
+[p x PWRTE  =  OFF       ]
+"16
+[p x MCLRE  =  ON       ]
+"17
+[p x CP  =  OFF          ]
+"18
+[p x CPD  =  OFF         ]
+"19
+[p x BOREN  =  OFF       ]
+"20
+[p x IESO  =  OFF        ]
+"21
+[p x FCMEN  =  OFF       ]
+"22
+[p x LVP  =  OFF         ]
+"25
+[p x BOR4V  =  BOR40V    ]
+"26
+[p x WRT  =  OFF         ]
+"54 C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 292: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"354
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 354: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"416
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 416: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"454
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 454: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"461
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 461: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"539
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 539: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"595
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 595: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"652
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 652: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"659
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 659: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"666
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 666: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"673
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 673: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"767
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 767: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"774
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 774: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"845
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 845: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"852
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 852: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"922
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 922: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"929
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 929: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"936
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 936: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"943
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 943: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"1040
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1040: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1135
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1135: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1142
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1142: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1149
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1149: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1156
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1156: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1163
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1163: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1170
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1170: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1240
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1240: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1247
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1247: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1348
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1348: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1418
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1418: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1480
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1480: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1542
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1542: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1604
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1604: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1666
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1666: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1704
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1704: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1760
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1760: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1817
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1817: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1864
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1864: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1929
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1929: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1981
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1981: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"2043
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2043: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"2050
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2050: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"2057
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2057: __asm("SSPMSK equ 093h");
+[; <" SSPMSK equ 093h ;# ">
+"2062
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2062: __asm("MSK equ 093h");
+[; <" MSK equ 093h ;# ">
+"2179
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2179: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2348
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2348: __asm("WPUB equ 095h");
+[; <" WPUB equ 095h ;# ">
+"2418
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2418: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"2488
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2488: __asm("VRCON equ 097h");
+[; <" VRCON equ 097h ;# ">
+"2558
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2558: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2644
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2644: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2706
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2706: __asm("SPBRGH equ 09Ah");
+[; <" SPBRGH equ 09Ah ;# ">
+"2776
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2776: __asm("PWM1CON equ 09Bh");
+[; <" PWM1CON equ 09Bh ;# ">
+"2846
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2846: __asm("ECCPAS equ 09Ch");
+[; <" ECCPAS equ 09Ch ;# ">
+"2928
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2928: __asm("PSTRCON equ 09Dh");
+[; <" PSTRCON equ 09Dh ;# ">
+"2972
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2972: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2979
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2979: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"3013
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3013: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"3066
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3066: __asm("CM1CON0 equ 0107h");
+[; <" CM1CON0 equ 0107h ;# ">
+"3131
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3131: __asm("CM2CON0 equ 0108h");
+[; <" CM2CON0 equ 0108h ;# ">
+"3196
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3196: __asm("CM2CON1 equ 0109h");
+[; <" CM2CON1 equ 0109h ;# ">
+"3247
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3247: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"3252
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3252: __asm("EEDAT equ 010Ch");
+[; <" EEDAT equ 010Ch ;# ">
+"3259
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3259: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"3266
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3266: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"3273
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3273: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"3280
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3280: __asm("SRCON equ 0185h");
+[; <" SRCON equ 0185h ;# ">
+"3337
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3337: __asm("BAUDCTL equ 0187h");
+[; <" BAUDCTL equ 0187h ;# ">
+"3389
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3389: __asm("ANSEL equ 0188h");
+[; <" ANSEL equ 0188h ;# ">
+"3451
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3451: __asm("ANSELH equ 0189h");
+[; <" ANSELH equ 0189h ;# ">
+"3501
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3501: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"3546
+[; ;C:/Users/Bryan Ortiz/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"45 C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 45: float escala = 0;
+[v _escala `f ~T0 @X0 1 e ]
+[i _escala
+-> -> 0 `i `f
+]
+"46
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 46: float peso=0,factor = 1;
+[v _peso `f ~T0 @X0 1 e ]
+[i _peso
+-> -> 0 `i `f
+]
+[v _factor `f ~T0 @X0 1 e ]
+[i _factor
+-> -> 1 `i `f
+]
+"47
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 47: uint16_t PesoToGo;
+[v _PesoToGo `ui ~T0 @X0 1 e ]
+"48
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 48: float peso_conocido[4] = {202,462,153,202};
+[v _peso_conocido `f ~T0 @X0 -> 4 `i e ]
+[i _peso_conocido
+:U ..
+-> -> 202 `i `f
+-> -> 462 `i `f
+-> -> 153 `i `f
+-> -> 202 `i `f
+..
+]
+"49
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 49: uint8_t z;
+[v _z `uc ~T0 @X0 1 e ]
+"50
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 50: int datoX;
+[v _datoX `i ~T0 @X0 1 e ]
+[v $root$_isr `(v ~T0 @X0 0 e ]
+"63
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 63: void __attribute__((picinterrupt(("")))) isr(void){
+[v _isr `(v ~T1 @X0 1 ef ]
+{
+[e :U _isr ]
+[f ]
+"64
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 64:    if(PIR1bits.SSPIF == 1){
+[e $ ! == -> . . _PIR1bits 0 3 `i -> 1 `i 139  ]
+{
+"66
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 66:         SSPCONbits.CKP = 0;
+[e = . . _SSPCONbits 0 1 -> -> 0 `i `uc ]
+"68
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 68:         if ((SSPCONbits.SSPOV) || (SSPCONbits.WCOL)){
+[e $ ! || != -> . . _SSPCONbits 0 3 `i -> 0 `i != -> . . _SSPCONbits 0 4 `i -> 0 `i 140  ]
+{
+"69
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 69:             z = SSPBUF;
+[e = _z _SSPBUF ]
+"70
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 70:             SSPCONbits.SSPOV = 0;
+[e = . . _SSPCONbits 0 3 -> -> 0 `i `uc ]
+"71
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 71:             SSPCONbits.WCOL = 0;
+[e = . . _SSPCONbits 0 4 -> -> 0 `i `uc ]
+"72
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 72:             SSPCONbits.CKP = 1;
+[e = . . _SSPCONbits 0 1 -> -> 1 `i `uc ]
+"73
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 73:         }
+}
+[e :U 140 ]
+"75
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 75:         if(!SSPSTATbits.D_nA && !SSPSTATbits.R_nW) {
+[e $ ! && ! != -> . . _SSPSTATbits 0 5 `i -> 0 `i ! != -> . . _SSPSTATbits 0 2 `i -> 0 `i 141  ]
+{
+"77
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 77:             z = SSPBUF;
+[e = _z _SSPBUF ]
+"79
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 79:             PIR1bits.SSPIF = 0;
+[e = . . _PIR1bits 0 3 -> -> 0 `i `uc ]
+"80
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 80:             SSPCONbits.CKP = 1;
+[e = . . _SSPCONbits 0 1 -> -> 1 `i `uc ]
+"81
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 81:             while(!SSPSTATbits.BF);
+[e $U 142  ]
+[e :U 143 ]
+[e :U 142 ]
+[e $ ! != -> . . _SSPSTATbits 0 0 `i -> 0 `i 143  ]
+[e :U 144 ]
+"82
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 82:             datoX = SSPBUF;
+[e = _datoX -> _SSPBUF `i ]
+"83
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 83:             _delay((unsigned long)((250)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"85
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 85:         }else if(!SSPSTATbits.D_nA && SSPSTATbits.R_nW){
+}
+[e $U 145  ]
+[e :U 141 ]
+[e $ ! && ! != -> . . _SSPSTATbits 0 5 `i -> 0 `i != -> . . _SSPSTATbits 0 2 `i -> 0 `i 146  ]
+{
+"86
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 86:             z = SSPBUF;
+[e = _z _SSPBUF ]
+"87
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 87:             BF = 0;
+[e = _BF -> -> 0 `i `b ]
+"88
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 88:             PesoToGo = (int)(peso*10);
+[e = _PesoToGo -> -> * _peso -> -> 10 `i `f `i `ui ]
+"89
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 89:             SSPBUF = PesoToGo;
+[e = _SSPBUF -> _PesoToGo `uc ]
+"90
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 90:             SSPCONbits.CKP = 1;
+[e = . . _SSPCONbits 0 1 -> -> 1 `i `uc ]
+"91
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 91:             _delay((unsigned long)((250)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"92
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 92:             while(SSPSTATbits.BF);
+[e $U 147  ]
+[e :U 148 ]
+[e :U 147 ]
+[e $ != -> . . _SSPSTATbits 0 0 `i -> 0 `i 148  ]
+[e :U 149 ]
+"93
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 93:         }
+}
+[e :U 146 ]
+[e :U 145 ]
+"95
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 95:         PIR1bits.SSPIF = 0;
+[e = . . _PIR1bits 0 3 -> -> 0 `i `uc ]
+"96
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 96:     }
+}
+[e :U 139 ]
+"97
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 97: }
+[e :UE 138 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"102
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 102: void main(){
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"103
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 103:     setup();
+[e ( _setup ..  ]
+"104
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 104:     init_hx(128);
+[e ( _init_hx (1 -> 128 `i ]
+"105
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 105:     Lcd_Clear();
+[e ( _Lcd_Clear ..  ]
+"107
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 107:     int unidad = 1;
+[v _unidad `i ~T0 @X0 1 a ]
+[e = _unidad -> 1 `i ]
+"108
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 108:     char tempChar[6];
+[v _tempChar `uc ~T0 @X0 -> 6 `i a ]
+"109
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 109:     int calicali=0;
+[v _calicali `i ~T0 @X0 1 a ]
+[e = _calicali -> 0 `i ]
+"111
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 111:     escala = readFromEEPROM(0x05);
+[e = _escala -> ( _readFromEEPROM (1 -> -> 5 `i `uc `f ]
+"114
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 114:     if(PORTBbits.RB4 == 0 && PORTBbits.RB5 == 0)
+[e $ ! && == -> . . _PORTBbits 0 4 `i -> 0 `i == -> . . _PORTBbits 0 5 `i -> 0 `i 151  ]
+"115
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 115:         calibration();
+[e ( _calibration ..  ]
+[e :U 151 ]
+"117
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 117:     Lcd_Set_Cursor(1,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"118
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 118:     Lcd_Write_String("Retire el peso");
+[e ( _Lcd_Write_String (1 :s 1C ]
+"119
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 119:     Lcd_Set_Cursor(2,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"120
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 120:     Lcd_Write_String("Y espere...");
+[e ( _Lcd_Write_String (1 :s 2C ]
+"121
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 121:     set_scale(escala);
+[e ( _set_scale (1 _escala ]
+"122
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 122:     tare(10);
+[e ( _tare (1 -> 10 `i ]
+"123
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 123:     _delay((unsigned long)((2000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 2000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"124
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 124:     Lcd_Clear();
+[e ( _Lcd_Clear ..  ]
+"126
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 126:     Lcd_Set_Cursor(1,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"127
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 127:     Lcd_Write_String("Listo...");
+[e ( _Lcd_Write_String (1 :s 3C ]
+"128
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 128:     _delay((unsigned long)((3000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"129
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 129:     Lcd_Clear();
+[e ( _Lcd_Clear ..  ]
+"130
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 130:     tare(10);
+[e ( _tare (1 -> 10 `i ]
+"133
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 133:     while(1){
+[e :U 153 ]
+{
+"135
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 135:         peso = get_units(10);
+[e = _peso ( _get_units (1 -> 10 `i ]
+"136
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 136:         Lcd_Set_Cursor(1,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"137
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 137:         Lcd_Write_String("PESO:");
+[e ( _Lcd_Write_String (1 :s 4C ]
+"139
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 139:         switch (unidad) {
+[e $U 156  ]
+{
+"140
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 140:              case 1:
+[e :U 157 ]
+"141
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 141:                 factor = 1;
+[e = _factor -> -> 1 `i `f ]
+"142
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 142:                 peso=peso/factor;
+[e = _peso / _peso _factor ]
+"145
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 145:                 tempChar[0] = (int)(peso/1000) + 48;
+[e = *U + &U _tempChar * -> -> -> 0 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + -> / _peso -> -> 1000 `i `f `i -> 48 `i `uc ]
+"146
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 146:                 tempChar[1] = ((int)peso)%1000/100 + 48;
+[e = *U + &U _tempChar * -> -> -> 1 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + / % -> _peso `i -> 1000 `i -> 100 `i -> 48 `i `uc ]
+"147
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 147:                 tempChar[2] = ((int)peso)/10%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 2 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % / -> _peso `i -> 10 `i -> 10 `i -> 48 `i `uc ]
+"148
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 148:                 tempChar[3] = ((int)peso)%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 3 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % -> _peso `i -> 10 `i -> 48 `i `uc ]
+"149
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 149:                 tempChar[4] = (int)(peso*10)%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 4 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % -> * _peso -> -> 10 `i `f `i -> 10 `i -> 48 `i `uc ]
+"151
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 151:                 Lcd_Set_Cursor(2,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"152
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 152:                 Lcd_Write_Char(tempChar[0]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 0 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"153
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 153:                 Lcd_Write_Char(tempChar[1]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 1 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"154
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 154:                 Lcd_Write_Char(tempChar[2]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 2 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"155
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 155:                 Lcd_Write_Char(tempChar[3]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 3 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"156
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 156:                 Lcd_Write_Char('.');
+[e ( _Lcd_Write_Char (1 -> -> 46 `ui `uc ]
+"157
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 157:                 Lcd_Write_Char(tempChar[4]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 4 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"159
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 159:                 Lcd_Write_Char('g');
+[e ( _Lcd_Write_Char (1 -> -> 103 `ui `uc ]
+"160
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 160:                 break;
+[e $U 155  ]
+"161
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 161:              case 2:
+[e :U 158 ]
+"162
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 162:                 factor = 1000.0;
+[e = _factor -> .1000.0 `f ]
+"163
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 163:                 peso=peso/factor;
+[e = _peso / _peso _factor ]
+"165
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 165:                 tempChar[0] = (int)(peso/1000) + 48;
+[e = *U + &U _tempChar * -> -> -> 0 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + -> / _peso -> -> 1000 `i `f `i -> 48 `i `uc ]
+"166
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 166:                 tempChar[1] = ((int)peso)%1000/100 + 48;
+[e = *U + &U _tempChar * -> -> -> 1 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + / % -> _peso `i -> 1000 `i -> 100 `i -> 48 `i `uc ]
+"167
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 167:                 tempChar[2] = ((int)peso)/10%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 2 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % / -> _peso `i -> 10 `i -> 10 `i -> 48 `i `uc ]
+"168
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 168:                 tempChar[3] = ((int)peso)%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 3 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % -> _peso `i -> 10 `i -> 48 `i `uc ]
+"169
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 169:                 tempChar[4] = (int)peso*10%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 4 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % * -> _peso `i -> 10 `i -> 10 `i -> 48 `i `uc ]
+"171
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 171:                 Lcd_Set_Cursor(2,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"172
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 172:                 Lcd_Write_Char(tempChar[0]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 0 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"173
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 173:                 Lcd_Write_Char(tempChar[1]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 1 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"174
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 174:                 Lcd_Write_Char(tempChar[2]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 2 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"175
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 175:                 Lcd_Write_Char(tempChar[3]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 3 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"176
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 176:                 Lcd_Write_Char('.');
+[e ( _Lcd_Write_Char (1 -> -> 46 `ui `uc ]
+"177
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 177:                 Lcd_Write_Char(tempChar[4]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 4 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"179
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 179:                 Lcd_Write_Char('K');
+[e ( _Lcd_Write_Char (1 -> -> 75 `ui `uc ]
+"180
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 180:                 Lcd_Write_Char('g');
+[e ( _Lcd_Write_Char (1 -> -> 103 `ui `uc ]
+"181
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 181:                 break;
+[e $U 155  ]
+"182
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 182:              case 3:
+[e :U 159 ]
+"183
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 183:                 factor = 28.35;
+[e = _factor -> .28.35 `f ]
+"184
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 184:                 peso=peso/factor;
+[e = _peso / _peso _factor ]
+"186
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 186:                 tempChar[0] = (int)(peso/1000) + 48;
+[e = *U + &U _tempChar * -> -> -> 0 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + -> / _peso -> -> 1000 `i `f `i -> 48 `i `uc ]
+"187
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 187:                 tempChar[1] = ((int)peso)%1000/100 + 48;
+[e = *U + &U _tempChar * -> -> -> 1 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + / % -> _peso `i -> 1000 `i -> 100 `i -> 48 `i `uc ]
+"188
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 188:                 tempChar[2] = ((int)peso)/10%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 2 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % / -> _peso `i -> 10 `i -> 10 `i -> 48 `i `uc ]
+"189
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 189:                 tempChar[3] = ((int)peso)%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 3 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % -> _peso `i -> 10 `i -> 48 `i `uc ]
+"190
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 190:                 tempChar[4] = (int)(peso*10)%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 4 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % -> * _peso -> -> 10 `i `f `i -> 10 `i -> 48 `i `uc ]
+"192
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 192:                 Lcd_Set_Cursor(2,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"193
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 193:                 Lcd_Write_Char(tempChar[0]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 0 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"194
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 194:                 Lcd_Write_Char(tempChar[1]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 1 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"195
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 195:                 Lcd_Write_Char(tempChar[2]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 2 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"196
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 196:                 Lcd_Write_Char(tempChar[3]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 3 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"197
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 197:                 Lcd_Write_Char('.');
+[e ( _Lcd_Write_Char (1 -> -> 46 `ui `uc ]
+"198
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 198:                 Lcd_Write_Char(tempChar[4]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 4 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"199
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 199:                 Lcd_Write_Char(tempChar[5]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 5 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"200
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 200:                 Lcd_Write_Char('O');
+[e ( _Lcd_Write_Char (1 -> -> 79 `ui `uc ]
+"201
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 201:                 Lcd_Write_Char('z');
+[e ( _Lcd_Write_Char (1 -> -> 122 `ui `uc ]
+"202
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 202:                 break;
+[e $U 155  ]
+"203
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 203:         }
+}
+[e $U 155  ]
+[e :U 156 ]
+[e [\ _unidad , $ -> 1 `i 157
+ , $ -> 2 `i 158
+ , $ -> 3 `i 159
+ 155 ]
+[e :U 155 ]
+"204
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 204:         if(PORTBbits.RB5==0){
+[e $ ! == -> . . _PORTBbits 0 5 `i -> 0 `i 160  ]
+{
+"205
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 205:              _delay((unsigned long)((200)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"206
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 206:              tare(10);
+[e ( _tare (1 -> 10 `i ]
+"207
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 207:         }
+}
+[e :U 160 ]
+"208
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 208:         if(PORTBbits.RB4==0){
+[e $ ! == -> . . _PORTBbits 0 4 `i -> 0 `i 161  ]
+{
+"209
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 209:              _delay((unsigned long)((200)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"210
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 210:              unidad = (unidad>2)? 1:unidad+1;
+[e = _unidad ? > _unidad -> 2 `i : -> 1 `i + _unidad -> 1 `i ]
+"211
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 211:         }
+}
+[e :U 161 ]
+"212
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 212:         _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"214
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 214:     }
+}
+[e :U 152 ]
+[e $U 153  ]
+[e :U 154 ]
+"216
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 216: }
+[e :UE 150 ]
+}
+"221
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 221: void setup(void){
+[v _setup `(v ~T0 @X0 1 ef ]
+{
+[e :U _setup ]
+[f ]
+"222
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 222:     ANSEL = 0;
+[e = _ANSEL -> -> 0 `i `uc ]
+"223
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 223:     ANSELH = 0;
+[e = _ANSELH -> -> 0 `i `uc ]
+"224
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 224:     TRISB = 0b00110100;
+[e = _TRISB -> -> 52 `i `uc ]
+"225
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 225:     TRISD = 0;
+[e = _TRISD -> -> 0 `i `uc ]
+"226
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 226:     PORTB = 0;
+[e = _PORTB -> -> 0 `i `uc ]
+"227
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 227:     PORTD = 0;
+[e = _PORTD -> -> 0 `i `uc ]
+"228
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 228:     TRISE = 0x00;
+[e = _TRISE -> -> 0 `i `uc ]
+"229
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 229:     PORTEbits.RE0=0;
+[e = . . _PORTEbits 0 0 -> -> 0 `i `uc ]
+"230
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 230:     OSCCONbits.IRCF=0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"231
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 231:     OSCCONbits.SCS=1;
+[e = . . _OSCCONbits 0 0 -> -> 1 `i `uc ]
+"232
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 232:     Lcd_Init();
+[e ( _Lcd_Init ..  ]
+"233
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 233:     I2C_Slave_Init(0x50);
+[e ( _I2C_Slave_Init (1 -> -> 80 `i `uc ]
+"238
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 238:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"239
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 239:     INTCONbits.RBIE = 1;
+[e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
+"240
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 240:     INTCONbits.RBIF = 0;
+[e = . . _INTCONbits 0 0 -> -> 0 `i `uc ]
+"241
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 241:     OPTION_REGbits.nRBPU = 0;
+[e = . . _OPTION_REGbits 0 5 -> -> 0 `i `uc ]
+"244
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 244:     IOCBbits.IOCB4 = 1;
+[e = . . _IOCBbits 1 4 -> -> 1 `i `uc ]
+"245
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 245:     WPUBbits.WPUB4 = 1;
+[e = . . _WPUBbits 1 4 -> -> 1 `i `uc ]
+"247
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 247:     IOCBbits.IOCB5 = 1;
+[e = . . _IOCBbits 1 5 -> -> 1 `i `uc ]
+"248
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 248:     WPUBbits.WPUB5 = 1;
+[e = . . _WPUBbits 1 5 -> -> 1 `i `uc ]
+"249
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 249: }
+[e :UE 162 ]
+}
+"252
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 252: void writeToEEPROM(uint8_t data, uint8_t address){
+[v _writeToEEPROM `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _writeToEEPROM ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[v _address `uc ~T0 @X0 1 r2 ]
+[f ]
+"253
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 253:     EEADR = address;
+[e = _EEADR _address ]
+"254
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 254:     EEDAT = data;
+[e = _EEDAT _data ]
+"256
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 256:     EECON1bits.EEPGD = 0;
+[e = . . _EECON1bits 0 5 -> -> 0 `i `uc ]
+"257
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 257:     EECON1bits.WREN = 1;
+[e = . . _EECON1bits 0 2 -> -> 1 `i `uc ]
+"259
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 259:     INTCONbits.GIE = 0;
+[e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
+"261
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 261:     EECON2 = 0x55;
+[e = _EECON2 -> -> 85 `i `uc ]
+"262
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 262:     EECON2 = 0xAA;
+[e = _EECON2 -> -> 170 `i `uc ]
+"263
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 263:     EECON1bits.WR = 1;
+[e = . . _EECON1bits 0 1 -> -> 1 `i `uc ]
+"266
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 266:     EECON1bits.WREN = 0;
+[e = . . _EECON1bits 0 2 -> -> 0 `i `uc ]
+"267
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 267: }
+[e :UE 163 ]
+}
+"269
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 269: uint8_t readFromEEPROM(uint8_t address){
+[v _readFromEEPROM `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _readFromEEPROM ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[f ]
+"270
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 270:     EEADR = address;
+[e = _EEADR _address ]
+"271
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 271:     EECON1bits.EEPGD = 0;
+[e = . . _EECON1bits 0 5 -> -> 0 `i `uc ]
+"272
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 272:     EECON1bits.RD = 1;
+[e = . . _EECON1bits 0 0 -> -> 1 `i `uc ]
+"273
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 273:     return EEDAT;
+[e ) _EEDAT ]
+[e $UE 164  ]
+"274
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 274: }
+[e :UE 164 ]
+}
+"277
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 277: void calibration(){
+[v _calibration `(v ~T0 @X0 1 ef ]
+{
+[e :U _calibration ]
+[f ]
+"279
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 279:   int i = 0,cal=1;
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[v _cal `i ~T0 @X0 1 a ]
+[e = _cal -> 1 `i ]
+"280
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 280:   uint32_t adc_lecture;
+[v _adc_lecture `ul ~T0 @X0 1 a ]
+"283
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 283:   Lcd_Set_Cursor(1,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"284
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 284:   Lcd_Write_String("Calibracion de");
+[e ( _Lcd_Write_String (1 :s 5C ]
+"285
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 285:   Lcd_Set_Cursor(2,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"286
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 286:   Lcd_Write_String("Balanza");
+[e ( _Lcd_Write_String (1 :s 6C ]
+"287
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 287:   _delay((unsigned long)((1500)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"290
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 290:   Lcd_Clear();
+[e ( _Lcd_Clear ..  ]
+"293
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 293:   while(cal == 1){
+[e $U 166  ]
+[e :U 167 ]
+{
+"295
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 295:     Lcd_Set_Cursor(1,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"296
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 296:     Lcd_Write_String("Peso conocido:");
+[e ( _Lcd_Write_String (1 :s 7C ]
+"298
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 298:     char tempChar[6];
+[v _tempChar `uc ~T0 @X0 -> 6 `i a ]
+"299
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 299:     tempChar[0] = (int)(peso_conocido[i]/1000) + 48;
+[e = *U + &U _tempChar * -> -> -> 0 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + -> / *U + &U _peso_conocido * -> -> _i `ui `ux -> -> # *U &U _peso_conocido `ui `ux -> -> 1000 `i `f `i -> 48 `i `uc ]
+"300
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 300:     tempChar[1] = ((int)peso_conocido[i])%1000/100 + 48;
+[e = *U + &U _tempChar * -> -> -> 1 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + / % -> *U + &U _peso_conocido * -> -> _i `ui `ux -> -> # *U &U _peso_conocido `ui `ux `i -> 1000 `i -> 100 `i -> 48 `i `uc ]
+"301
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 301:     tempChar[2] = ((int)peso_conocido[i])/10%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 2 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % / -> *U + &U _peso_conocido * -> -> _i `ui `ux -> -> # *U &U _peso_conocido `ui `ux `i -> 10 `i -> 10 `i -> 48 `i `uc ]
+"302
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 302:     tempChar[3] = ((int)peso_conocido[i])%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 3 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % -> *U + &U _peso_conocido * -> -> _i `ui `ux -> -> # *U &U _peso_conocido `ui `ux `i -> 10 `i -> 48 `i `uc ]
+"303
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 303:     tempChar[4] = (int)(peso_conocido[i])*10%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 4 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % * -> *U + &U _peso_conocido * -> -> _i `ui `ux -> -> # *U &U _peso_conocido `ui `ux `i -> 10 `i -> 10 `i -> 48 `i `uc ]
+"304
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 304:     tempChar[5] = (int)(peso_conocido[i])*100%10 + 48;
+[e = *U + &U _tempChar * -> -> -> 5 `i `ui `ux -> -> # *U &U _tempChar `ui `ux -> + % * -> *U + &U _peso_conocido * -> -> _i `ui `ux -> -> # *U &U _peso_conocido `ui `ux `i -> 100 `i -> 10 `i -> 48 `i `uc ]
+"306
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 306:     Lcd_Set_Cursor(2,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"307
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 307:     Lcd_Write_Char(tempChar[0]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 0 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"308
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 308:     Lcd_Write_Char(tempChar[1]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 1 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"309
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 309:     Lcd_Write_Char(tempChar[2]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 2 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"310
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 310:     Lcd_Write_Char(tempChar[3]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 3 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"311
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 311:     Lcd_Write_Char('.');
+[e ( _Lcd_Write_Char (1 -> -> 46 `ui `uc ]
+"312
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 312:     Lcd_Write_Char(tempChar[4]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 4 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"313
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 313:     Lcd_Write_Char(tempChar[5]);
+[e ( _Lcd_Write_Char (1 *U + &U _tempChar * -> -> -> 5 `i `ui `ux -> -> # *U &U _tempChar `ui `ux ]
+"314
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 314:     Lcd_Write_Char('g');
+[e ( _Lcd_Write_Char (1 -> -> 103 `ui `uc ]
+"318
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 318:     if(PORTBbits.RB5==0){
+[e $ ! == -> . . _PORTBbits 0 5 `i -> 0 `i 169  ]
+{
+"319
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 319:       _delay((unsigned long)((200)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"320
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 320:       i =(i>2) ? 0:i+1;
+[e = _i ? > _i -> 2 `i : -> 0 `i + _i -> 1 `i ]
+"322
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 322:     }
+}
+[e :U 169 ]
+"325
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 325:     if(PORTBbits.RB4==0){
+[e $ ! == -> . . _PORTBbits 0 4 `i -> 0 `i 170  ]
+{
+"326
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 326:       _delay((unsigned long)((200)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"327
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 327:       Lcd_Clear();
+[e ( _Lcd_Clear ..  ]
+"328
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 328:       Lcd_Set_Cursor(1,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"329
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 329:       Lcd_Write_String("Poner peso");
+[e ( _Lcd_Write_String (1 :s 8C ]
+"330
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 330:       Lcd_Set_Cursor(2,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"331
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 331:       Lcd_Write_String("Y espere...");
+[e ( _Lcd_Write_String (1 :s 9C ]
+"333
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 333:       _delay((unsigned long)((3000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"336
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 336:       adc_lecture = get_value(10);
+[e = _adc_lecture -> ( _get_value (1 -> 10 `i `ul ]
+"339
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 339:       escala = adc_lecture / peso_conocido[i];
+[e = _escala / -> _adc_lecture `f *U + &U _peso_conocido * -> -> _i `ui `ux -> -> # *U &U _peso_conocido `ui `ux ]
+"342
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 342:       writeToEEPROM(escala, 0x05);
+[e ( _writeToEEPROM (2 , -> _escala `uc -> -> 5 `i `uc ]
+"344
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 344:       _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"345
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 345:       cal = 0;
+[e = _cal -> 0 `i ]
+"346
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 346:       Lcd_Clear();
+[e ( _Lcd_Clear ..  ]
+"347
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 347:     }
+}
+[e :U 170 ]
+"349
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 349:   }
+}
+[e :U 166 ]
+"293
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 293:   while(cal == 1){
+[e $ == _cal -> 1 `i 167  ]
+[e :U 168 ]
+"350
+[; ;C:/Users/Bryan Ortiz/Desktop/Digital2/Proyecto/Codigo/Proyecto1_PICpesador.X/PICpesador.c: 350: }
+[e :UE 165 ]
+}
+[a 8C 80 111 110 101 114 32 112 101 115 111 0 ]
+[a 1C 82 101 116 105 114 101 32 101 108 32 112 101 115 111 0 ]
+[a 5C 67 97 108 105 98 114 97 99 105 111 110 32 100 101 0 ]
+[a 6C 66 97 108 97 110 122 97 0 ]
+[a 7C 80 101 115 111 32 99 111 110 111 99 105 100 111 58 0 ]
+[a 4C 80 69 83 79 58 0 ]
+[a 3C 76 105 115 116 111 46 46 46 0 ]
+[a 2C 89 32 101 115 112 101 114 101 46 46 46 0 ]
+[a 9C 89 32 101 115 112 101 114 101 46 46 46 0 ]
